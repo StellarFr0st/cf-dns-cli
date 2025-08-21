@@ -6,8 +6,7 @@ BIN_PATH="/usr/local/bin/${BIN_NAME}"
 LOG_FILE="/var/log/cf-dns-update.log"
 RC_FILE="$HOME/.bashrc"
 
-# TODO: replace this with your real raw GitHub URL once your repo is live
-GITHUB_REPO_URL="https://github.com/your-username/your-repo/raw/main/cf-dns-cli.sh"
+GITHUB_REPO_URL="https://github.com/StellarFr0st/cf-dns-cli/raw/main/manual/cf-dns.sh"
 
 say(){ printf "[*] %s\n" "$*"; }
 ok(){ printf "[OK] %s\n" "$*"; }
